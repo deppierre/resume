@@ -1,43 +1,41 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  first: Pierre
+  middle: Henri
+  last: Depretz
+about: Me? Ever since I was a kid, computer science has been my passion.
+  I will always remember that magic moment when I created a static HTML page for the first time. I like the feeling to be able to ask the computer whatever I want to do just by typing something with my keyboard.
+  This passion carried me through today, almost 10 years of experience by learning something every day and there's certainly yet more to learn, solve and build.
+position: Cloud | Database | DevOps
 
 birth:
-  year: 1990
-  location: New York
+  year: 1987
+  location: France
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Ingenico
+  website: https://www.ingenico.com/
+  location: Sydney, Australia
+  position: Database administrator
+  timeperiod: since July 2019
+  description: Database (PostgreSQL) engineering in full IaaC (Infrastructure as a code) environment.
+  skills:
+  - DevOps tools: Ansible / Gitlab / Foreman / Puppet / Docker
+  - IaaC: Python (scripting and OOP) - Bash - Yaml / Json (rest API)
+  - Monitoring : Grafana / Sensu (+ Uchiwa) / Icinga
+  - Linux: system (Redhat), clustering (pacemaker, corosync)
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Easyteam
+  website: https://easyteam.fr/
+  location: Lyon, France
+  position: Cloud engineer
+  timeperiod: 2018 - Jun 2019
+  description: Migration from on-premise to the Cloud (Azure) for a financial customer (asset management).
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Bachelor of Computer Science
+  school: University of Lille 1 Sciences and Technology
+  timeperiod: 2007 - 2010
 
 # skill level goes 0 to 100
 skills:
