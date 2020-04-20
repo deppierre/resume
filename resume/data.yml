@@ -20,8 +20,9 @@ experience:
   timeperiod: since July 2019
   description: 
     Database (PostgreSQL) engineering in full IaaC (Infrastructure as a code) environment.
+    Skills ::
   list:
-    - { DevOps: Ansible / Gitlab / Foreman / Puppet / Docker }
+    - DevOps Ansible / Gitlab / Foreman / Puppet / Docker
     - IaaC Python (scripting and OOP) - Bash - Yaml / Json (rest API)
     - Monitoring Grafana / Sensu (+ Uchiwa) / Icinga
     - Linux system (Redhat), clustering (pacemaker, corosync)

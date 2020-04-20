@@ -115,7 +115,7 @@
           <ul v-if="experience.list" >
             <li v-for="(item, index) in experience.list" :key="index">
               <span class="list-item-black">
-                {{item}}
+                - {{item}}
               </span>
             </li>
           </ul>
