@@ -9,7 +9,7 @@
     </div>
     <div v-if="person.birth" class="item">
       <div class="icon">
-        <i class="material-icons">account_circle</i>
+        <i class="material-icons">account_box</i>
       </div>
       <div class="text">
         <ul>
