@@ -12,6 +12,7 @@ node -v
 ```
 yum install git -y
 curl -sL https://rpm.nodesource.com/setup_13.x | bash -
+sudo yum install -y nodejs
 ```
 
 ## How to use
