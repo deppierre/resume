@@ -67,7 +67,7 @@
     <a v-if="person.contact.website" :href="person.contact.website" target="_blank">
       <div class="item">
         <div class="icon">
-          <i class="material-icons">person_add</i>
+          <i class="material-icons">language</i>
         </div>
         <div class="text">
           <span>{{person.contact.website}}</span>
