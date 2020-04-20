@@ -99,7 +99,7 @@
     </div>
     <div class="section-headline">ABOUT ME</div>
     <div class="block">
-      <div class="subheadline">{{person.about}}</div>
+      <div class="about">{{person.about}}</div>
     </div>
 
     <div class="section-headline">{{ lang.experience }}</div>
@@ -287,6 +287,13 @@ h4 {
     }
     .info {
       font-size:14px;
+      color:rgba(0,0,0,0.870588);
+      margin-bottom:0;
+      padding-top:20px;
+    }
+    .about {
+      font-size:14px;
+      font-style: italic;
       color:rgba(0,0,0,0.870588);
       margin-bottom:0;
       padding-top:20px;
