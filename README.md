@@ -13,6 +13,10 @@ node -v
 yum install git -y
 curl -sL https://rpm.nodesource.com/setup_13.x | bash -
 sudo yum install -y nodejs
+mkdir /data && cd /data
+git clone https://github.com/deppierre/resume
+cd /data/resume
+npm install
 ```
 
 ## How to use
