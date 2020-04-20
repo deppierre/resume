@@ -99,7 +99,7 @@
     </div>
     <div class="section-headline">ABOUT ME</div>
     <div class="block">
-      <p class="about">
+      <p class="content">
         {{person.about}}
       </p>
     </div>
