@@ -5,7 +5,8 @@ name:
   last: Depretz
 about:
   Ever since I was a kid, computer science has been my passion.
-  I will always remember that magic moment when I created a static HTML page for the first time. I like the feeling to be able to ask the computer whatever I want to do just by typing something with my keyboard.
+  I will always remember that magic moment when I created a static HTML page for the first time. 
+  I like the feeling to be able to ask the computer whatever I want to do just by typing something with my keyboard.
   This passion carried me through today, almost 10 years of experience by learning something every day and there's certainly yet more to learn, solve and build.
 position: Cloud | Database | DevOps
 
@@ -14,27 +15,59 @@ birth:
   location: France
 
 experience:
-- company: Ingenico
+- company: Ingenico (Financial services)
   location: Sydney, Australia
   position: Database administrator
   timeperiod: since July 2019
   description: 
-    Database (PostgreSQL) engineering in full IaaC (Infrastructure as a code) environment.
-    Skills
+    Ingenico manages payment transactions for various customers in Australia and Europe (McDonald's, Carrefour, Sainsbury, ... )
+    I'm doing database production engineering in a full IaaC (Infrastructure as a code) environment. 
+    We handle millions of transactions every day, terabytes of data and backup compliant with PCI-DSS
   list:
-    - DevOps Ansible / Gitlab / Foreman / Puppet / Docker
-    - IaaC Python (scripting and OOP) - Bash - Yaml / Json (rest API)
-    - Monitoring Grafana / Sensu (+ Uchiwa) / Icinga
-    - Linux system (Redhat), clustering (pacemaker, corosync)
+    - Database   | PostgreSQL, Cassandra, Datalake (MapR)
+    - DevOps     | Ansible, Gitlab, Foreman, Puppet, Docker
+    - Coding     | Python, Bash, Yaml, Json (rest API)
+    - Monitoring | Grafana, Sensu, Uchiwa, Icinga
+    - Linux      | Redhat, CentOS 6&7, clustering (pacemaker, corosync), networking
 
 - company: Easyteam
   location: Lyon, France
   position: Cloud engineer
   timeperiod: 2018 - Jun 2019
   description: 
-    Migration from on-premise to the Cloud (Azure) for a financial customer (asset management).
-    lol
-    lol2
+    Easyteam supports the migration from on-premise to the Cloud (AWS / Azure)
+    My main project (1 year) was the migration of a financial customer (asset management). I've been involved in every step of the project (virtual networking, load-balancing, NSG, FW, ...).
+  list:
+    - Cloud      | Azure Cloud, AWS
+    - Database   | PostgreSQL, Oracle
+    - Monitoring | Datadog
+    - System     | Windows Server, CentOS, Docker
+
+- company: Gfi world
+  location: Lyon, France
+  position: Database engineer
+  timeperiod: 2017 - 2018
+  description: 
+    Gfi provides IT services in 22 countries 
+    My main activity was the database support in production for the French National Railway Company (SNCF).
+    Hundred of databases in high availability (clustering, replication, polling, ...)
+  list:
+    - Database   | PostgreSQL, MongoDB, Oracle, MSSQL
+    - Coding     | Bash, Shell, Powershell
+    - System     | Windows Server, Linux, Docker
+
+- company: IBM
+  location: Lille, France
+  position: System engineer
+  timeperiod: 2015 - 2017
+  description: 
+    IBM provides 2 datacenters in France for Carrefour (worldwide retailer). 
+    My team (3rd level, engineering) was responsible of the Windows support in production. 
+    Including system (Windows server 2008 - 2012), Middleware, Databases, clustering
+  list:
+    - Database   | MSSQL
+    - Coding     | Powershell
+    - System     | Windows Server
 
 education:
 - degree: Bachelor of Computer Science
@@ -43,38 +76,39 @@ education:
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
+- name: Linux (Redhat / CentOS)
+  level: 70
+- name: Windows server
+  level: 70
+- name: Cloud computing (AWS / Azure)
   level: 60
-- name: TypeScript
+- name: PostgreSQL
   level: 80
-- name: ES.Next
+- name: MongoDB, SQL server
+  level: 60
+- name: Redis, Cassandra, Oracle
+  level: 40
+- name: Python
+  level: 70
+- name: Shell, bash
+  level: 80
+- name: Php, Powershell
+  level: 50
+- name: Ansible
   level: 70
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+  level: 60
+knowledge: logs analyze, networking (DNS, OSI model, ...), system update, IAM, writting documentations, performance tuning, load-balancing, pooling, clustering.
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Major migration in production for Ingenico
+  platform: Ansible
+  description: Migration from PostgreSQL 9.5 to 9.6. Dozens of 4 nodes cluster in preprod and production. Only 1 hour downtime.
+  url: https://github.com/deppierre/Devops-Ansible
 
 hobbies:
 - name: Video Games
   iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
   url: https://example.com
 
 contact:
