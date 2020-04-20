@@ -98,7 +98,9 @@
       <div>{{person.position}}</div>
     </div>
     <div class="section-headline">ABOUT ME</div>
-    <div class="subheadline">{{person.about}}</div>
+    <div class="block">
+      <div class="subheadline">{{person.about}}</div>
+    </div>
 
     <div class="section-headline">{{ lang.experience }}</div>
     <div class="block" v-for="experience in person.experience" :key="experience.company">
