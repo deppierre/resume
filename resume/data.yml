@@ -18,11 +18,10 @@ experience:
   position: Database administrator
   timeperiod: since July 2019
   description: Database (PostgreSQL) engineering in full IaaC (Infrastructure as a code) environment.
-  skills:
-  - DevOps tools: Ansible / Gitlab / Foreman / Puppet / Docker
-  - IaaC: Python (scripting and OOP) - Bash - Yaml / Json (rest API)
-  - Monitoring : Grafana / Sensu (+ Uchiwa) / Icinga
-  - Linux: system (Redhat), clustering (pacemaker, corosync)
+  - DevOps tools:\ Ansible / Gitlab / Foreman / Puppet / Docker
+  - IaaC:\ Python (scripting and OOP) - Bash - Yaml / Json (rest API)
+  - Monitoring:\ Grafana / Sensu (+ Uchiwa) / Icinga
+  - Linux:\ system (Redhat), clustering (pacemaker, corosync)
 
 - company: Easyteam
   location: Lyon, France
@@ -71,18 +70,13 @@ hobbies:
   iconClass: fa fa-pencil
   url: https://example.com
 
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
-
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: pdepretz59@gmail.com
+  phone: 0423 508 948
+  street: 16/27-33 Boundary Street
+  city: Roseville (2069)
+  website: linkedin.com/in/deppierre/
+  github: deppierre
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
