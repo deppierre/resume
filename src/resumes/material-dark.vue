@@ -97,6 +97,7 @@
       <h2>{{person.name.first}} {{person.name.middle}} {{person.name.last}}</h2>
       <div>{{person.position}}</div>
     </div>
+    <div class="section-headline">ABOUT ME</div>
     <div class="subheadline">{{person.about}}</div>
 
     <div class="section-headline">{{ lang.experience }}</div>
