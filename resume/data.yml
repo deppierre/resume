@@ -14,7 +14,6 @@ birth:
 
 experience:
 - company: Ingenico
-  website: https://www.ingenico.com/
   location: Sydney, Australia
   position: Database administrator
   timeperiod: since July 2019
@@ -26,7 +25,6 @@ experience:
   - Linux: system (Redhat), clustering (pacemaker, corosync)
 
 - company: Easyteam
-  website: https://easyteam.fr/
   location: Lyon, France
   position: Cloud engineer
   timeperiod: 2018 - Jun 2019
