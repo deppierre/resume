@@ -3,9 +3,9 @@ name:
   first: Pierre
   middle: Henri
   last: Depretz
-about: >+
-  Ever since I was a kid, computer science has been my passion.\n
-  I will always remember that magic moment when I created a static HTML page for the first time. I like the feeling to be able to ask the computer whatever I want to do just by typing something with my keyboard.\n
+about:
+  Ever since I was a kid, computer science has been my passion.
+  I will always remember that magic moment when I created a static HTML page for the first time. I like the feeling to be able to ask the computer whatever I want to do just by typing something with my keyboard.
   This passion carried me through today, almost 10 years of experience by learning something every day and there's certainly yet more to learn, solve and build.
 position: Cloud | Database | DevOps
 
@@ -29,7 +29,10 @@ experience:
   location: Lyon, France
   position: Cloud engineer
   timeperiod: 2018 - Jun 2019
-  description: Migration from on-premise to the Cloud (Azure) for a financial customer (asset management).
+  content: 
+    Migration from on-premise to the Cloud (Azure) for a financial customer (asset management).
+    lol
+    lol2
 
 education:
 - degree: Bachelor of Computer Science
