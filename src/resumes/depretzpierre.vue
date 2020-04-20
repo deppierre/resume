@@ -113,6 +113,13 @@
         <p class="info">
           {{experience.description}}
         </p>
+        <ul v-if="experience.list" >
+        <li v-for="(item, index) in experience.list" :key="index">
+          <span class="list-item-black">
+            {{item}}
+          </span>
+        </li>
+</ul>
     </div>
     <div class="section-headline">{{ lang.education }}</div>
     <div class="block" v-for="education in person.education" :key="education.degree">
