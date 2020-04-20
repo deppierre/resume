@@ -268,7 +268,7 @@ h4 {
   opacity:1;
 }
 .rightCol {
-  width:85%;
+  width:63.5%;
   height:100%;
   float:right;
   display:flex;
