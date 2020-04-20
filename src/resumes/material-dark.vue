@@ -298,7 +298,6 @@ h4 {
       font-style: italic;
       color:rgba(0,0,0,0.870588);
       margin-bottom:0;
-      padding-top:20px;
     }
     .icon {
       width:16%;
