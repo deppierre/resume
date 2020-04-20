@@ -8,6 +8,12 @@ node -v
 
 2. If you do not have installed Node.js in your machine then go to [this link](https://nodejs.org/en/download/) in order to install node.
 
+3. Installation through AWS EC2
+```
+yum install git -y
+curl -sL https://rpm.nodesource.com/setup_13.x | bash -
+```
+
 ## How to use
 
 1. Clone this repository.
