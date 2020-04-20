@@ -10,6 +10,15 @@
         </div>
       </router-link>
     </div>
+  <div class="previews">
+    <div class="preview">
+      <router-link v-bind:to="'/resume/depretzpierre'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/resume-material-dark.png" />
+          <span>depretzpierre</span>
+        </div>
+      </router-link>
+    </div>
     <div class="preview">
       <router-link v-bind:to="'/resume/left-right'">
         <div class="preview-wrapper">
