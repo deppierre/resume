@@ -283,6 +283,7 @@ h4 {
     display:inline-block;
     box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
     .headline {
+      font-weight: bold;
       font-weight:300;
       display:block;
       font-size:15px;
