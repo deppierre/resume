@@ -3,7 +3,8 @@ name:
   first: Pierre
   middle: Henri
   last: Depretz
-about: Me? Ever since I was a kid, computer science has been my passion.
+about: |
+  Ever since I was a kid, computer science has been my passion.
   I will always remember that magic moment when I created a static HTML page for the first time. I like the feeling to be able to ask the computer whatever I want to do just by typing something with my keyboard.
   This passion carried me through today, almost 10 years of experience by learning something every day and there's certainly yet more to learn, solve and build.
 position: Cloud | Database | DevOps
@@ -17,11 +18,12 @@ experience:
   location: Sydney, Australia
   position: Database administrator
   timeperiod: since July 2019
-  description: Database (PostgreSQL) engineering in full IaaC (Infrastructure as a code) environment.
-  # - DevOps tools:\ Ansible / Gitlab / Foreman / Puppet / Docker
-  # - IaaC:\ Python (scripting and OOP) - Bash - Yaml / Json (rest API)
-  # - Monitoring:\ Grafana / Sensu (+ Uchiwa) / Icinga
-  # - Linux:\ system (Redhat), clustering (pacemaker, corosync)
+  description: 
+    Database (PostgreSQL) engineering in full IaaC (Infrastructure as a code) environment.
+    - DevOps tools:\ Ansible / Gitlab / Foreman / Puppet / Docker
+    - IaaC:\ Python (scripting and OOP) - Bash - Yaml / Json (rest API)
+    - Monitoring:\ Grafana / Sensu (+ Uchiwa) / Icinga
+    - Linux:\ system (Redhat), clustering (pacemaker, corosync)
 
 - company: Easyteam
   location: Lyon, France
