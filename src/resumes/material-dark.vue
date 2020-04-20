@@ -99,7 +99,9 @@
     </div>
     <div class="section-headline">ABOUT ME</div>
     <div class="block">
-      <div class="about">{{person.about}}</div>
+      <p class="about">
+        {{person.about}}
+      </p>
     </div>
 
     <div class="section-headline">{{ lang.experience }}</div>
