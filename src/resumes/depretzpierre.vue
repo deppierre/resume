@@ -126,7 +126,7 @@
       <div class="block-helper"></div>
       <div class="headline">{{education.degree}}</div>
       <p class="info">
-        {{education.timeperiod}}, {{education.description}}
+        {{education.timeperiod}}, {{education.school}}
       </p>
     </div>
   </div>

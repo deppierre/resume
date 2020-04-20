@@ -74,6 +74,13 @@ education:
   school: University of Lille 1 Sciences and Technology
   timeperiod: 2007 - 2010
 
+- degree: AWS Certified Solutions Architect - Associate
+  school: Amazon
+  timeperiod: 2019 - 2022
+
+- degree: Microsoft Certified Azure Fundamentals
+  school: Microsoft
+  timeperiod: 2019
 # skill level goes 0 to 100
 skills:
 - name: Linux (Redhat / CentOS)
@@ -106,16 +113,11 @@ projects:
   description: Migration from PostgreSQL 9.5 to 9.6. Dozens of 4 nodes cluster in preprod and production. Only 1 hour downtime.
   url: https://github.com/deppierre/Devops-Ansible
 
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
 contact:
   email: pdepretz59@gmail.com
   phone: 0423 508 948
   street: 16/27-33 Boundary Street
-  city: Roseville (2069)
+  city: Roseville, Australia
   website: linkedin.com/in/deppierre/
   github: deppierre
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no

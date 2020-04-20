@@ -38,7 +38,7 @@ export default Vue.component('resume', {
 .page {
   background: white;
   position: relative;
-  width: 30cm;
+  width: 21cm;
   height: 60.68cm;
   display: block;
   page-break-after: auto;
